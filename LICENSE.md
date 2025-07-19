@@ -65,7 +65,7 @@ Para dúvidas, autorizações ou esclarecimentos, entre em contato via:
 **Email:** contato@theusoft.shop  
 **Website:** [https://theusoft.shop](https://theusoft.shop)
 
----
+#
 
 # **Ṫ͏͏HEÜSOFT**  
 #### *Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.*
