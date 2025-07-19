@@ -67,5 +67,10 @@ Para dúvidas, autorizações ou esclarecimentos, entre em contato via:
 
 ---
 
-**Ṫ͏͏HEÜSOFT** — TECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.  
-© 2022–2025 Ṫ͏͏HEÜSOFT ORGANIZAÇÃO TECNOLÓGICA. Todos os direitos reservados.
+**Ṫ͏͏HEÜSOFT** — *Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.*  
+© 2022–2025 **Ṫ͏͏HEÜSOFT**. Todos os direitos legais e de propriedade intelectual reservados.  
+Este conteúdo é protegido por leis nacionais e internacionais de propriedade intelectual.  
+É vedada a reprodução, distribuição ou modificação, total ou parcial, sem autorização prévia e expressa.  
+Violação destes termos poderá resultar em sanções civis e criminais, conforme a legislação vigente.
+
+
