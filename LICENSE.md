@@ -67,10 +67,9 @@ Para dúvidas, autorizações ou esclarecimentos, entre em contato via:
 
 ---
 
-### **Ṫ͏͏HEÜSOFT**  
+# **Ṫ͏͏HEÜSOFT**  
 #### *Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.*
 
----
 
 © 2022–2025 **Ṫ͏͏HEÜSOFT**  
 **Todos os direitos legais e de propriedade intelectual reservados.**
