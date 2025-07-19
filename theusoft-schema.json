@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ṫ͏͏HEÜSOFT",
+  "alternateName": "THEUSOFT developer",
+  "url": "https://theusoft.shop",
+  "logo": "https://theusoft.shop/logo.png",
+  "foundingDate": "2022-04-25",
+  "description": "Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.",
+  "sameAs": [
+    "https://github.com/theusoft-org",
+    "https://linkedin.com/company/theusoft",
+    "https://instagram.com/theusoft",
+    "https://youtube.com/@theusoft"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Brasil"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "contato@theusoft.shop"
+  }
+}
