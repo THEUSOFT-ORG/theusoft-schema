@@ -1,7 +1,8 @@
 # LICENÇA DE USO — Ṫ͏͏HEÜSOFT Schema
 
-**CNPJ:** 46.142.036/0001-00  
-**Razão Social:** Mateüs Araüjo
+**CNPJ Oficial:** `46.142.036/0001-00`  
+**Responsável Legal:** **Mateüs Araüjo**  
+**Identidade da Marca:** **Ṫ͏͏HEÜSOFT**
 
 ---
 
