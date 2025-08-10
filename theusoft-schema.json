@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Ṫ͏͏HEÜSOFT",
-  "alternateName": "THEUSOFT developer",
+  "alternateName": "THEUSOFT",
   "url": "https://theusoft.shop",
   "logo": "https://theusoft.shop/logo.png",
   "foundingDate": "2022-04-25",
@@ -15,11 +15,13 @@
   ],
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Brasil"
+    "addressLocality": "Brasil",
+    "addressCountry": "BR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
-    "email": "contato@theusoft.shop"
+    "email": "contato@theusoft.shop",
+    "areaServed": "BR"
   }
 }
