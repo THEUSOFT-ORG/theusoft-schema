@@ -53,7 +53,7 @@
     "name": "Ṫ͏͏HEÜSOFT",
     "alternateName": "THEUSOFT",
     "url": "https://theusoft.shop",
-    "logo": "assets/img/preview.jpg",
+    "logo": "/assets/img/preview.jpg",
     "founder": {
       "@type": "Person",
       "name": "Mateüs Araüjo",
@@ -91,78 +91,243 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
+<body class="font-sans bg-gray-50">
+    <!-- Topbar -->
+    <header class="fixed top-0 left-0 right-0 bg-gradient-to-r from-blue-900 to-gray-900 text-white shadow-lg z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="assets/img/logo_branco.png" alt="Ṫ͏͏HEÜSOFT Logo" class="h-10">
+            </div>
 
-<body>
+            <!-- Desktop Social Icons -->
+            <div class="hidden md:flex space-x-4">
+                <a href="https://github.com/THEUSOFT-ORG" target="_blank" class="social-icon text-white hover:text-gray-300">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://www.instagram.com/theusoft/" target="_blank" class="social-icon text-white hover:text-pink-400">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                <a href="https://www.youtube.com/@theusoft" target="_blank" class="social-icon text-white hover:text-red-500">
+                    <i class="fab fa-youtube text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/theusoft-org" target="_blank" class="social-icon text-white hover:text-blue-400">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://www.facebook.com/theusoftorg" target="_blank" class="social-icon text-white hover:text-blue-500">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="https://g.page/r/CaV1hF2qU65aEBM/review" target="_blank" class="social-icon text-white hover:text-green-400">
+                    <i class="fab fa-google text-xl"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon text-white hover:text-blue-300">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon text-white hover:text-green-500">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon text-white hover:text-blue-500">
+                    <i class="fab fa-telegram text-xl"></i>
+                </a>
+            </div>
 
-<header>
-    <!-- Substituir pelo Base64 ou pelo arquivo em /assets/img/logo.png -->
-    <img src="assets/img/logo.png" alt="Logo Ṫ͏͏HEÜSOFT">
-    <h1>Ṫ͏͏HEÜSOFT Schema Oficial</h1>
-    <p><em>TECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA</em></p>
-    <p>Desde 2022 | Atualização contínua até 2025.2</p>
-</header>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
 
-<main>
-    <h2>Visão Geral</h2>
-    <p>Este repositório representa o <strong>Schema Oficial</strong> da organização <strong>Ṫ͏͏HEÜSOFT</strong>, a fundação digital da nossa identidade corporativa e tecnológica.</p>
-    <p>Estruturado em JSON-LD seguindo rigorosamente os padrões internacionais do <a href="https://schema.org/Organization" target="_blank">Schema.org</a>, nosso schema não é mero dado — é a peça chave para garantir que sistemas inteligentes, motores de busca, assistentes virtuais e integrações automatizadas compreendam, reconheçam e valorizem a nossa marca no universo digital.</p>
-    <p>Trata-se de um elo essencial na construção da nossa reputação e visibilidade, facilitando a interoperabilidade entre plataformas e garantindo que a <strong>Ṫ͏͏HEÜSOFT</strong> seja percebida com precisão e autoridade no ecossistema tecnológico global.</p>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu bg-gray-800 md:hidden">
+            <div class="container mx-auto px-4 py-3 flex flex-wrap justify-center gap-4">
+                <a href="https://github.com/THEUSOFT-ORG" target="_blank" class="social-icon text-white hover:text-gray-300">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://www.instagram.com/theusoft/" target="_blank" class="social-icon text-white hover:text-pink-400">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                <a href="https://www.youtube.com/@theusoft" target="_blank" class="social-icon text-white hover:text-red-500">
+                    <i class="fab fa-youtube text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/theusoft-org" target="_blank" class="social-icon text-white hover:text-blue-400">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://www.facebook.com/theusoftorg" target="_blank" class="social-icon text-white hover:text-blue-500">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="https://g.page/r/CaV1hF2qU65aEBM/review" target="_blank" class="social-icon text-white hover:text-green-400">
+                    <i class="fab fa-google text-xl"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon text-white hover:text-blue-300">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="https://wa.me/5575999388797?text=%3E%20%C2%A9%202025.2%20%E1%B9%AA%CD%8F%CD%8FHE%C3%9CSOFT.%20%E1%B9%AA%CD%8F%CD%8FECNOLOGIA%20Q%C3%9CE%20APR%C3%96XIMA%2C%20ED%C3%9CCA%C3%87%C3%83O%20Q%C3%9CE%20TRANSF%C3%96RMA." target="_blank" class="social-icon text-white hover:text-green-500">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon text-white hover:text-blue-500">
+                    <i class="fab fa-telegram text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </header>
 
-    <h2>Objetivo do Schema</h2>
-    <ul>
-        <li><strong>Padronizar a representação da identidade corporativa</strong> em dados estruturados legíveis por máquinas.</li>
-        <li><strong>Otimizar a presença</strong> da Ṫ͏͏HEÜSOFT em mecanismos de busca, melhorando o SEO e a indexação.</li>
-        <li><strong>Facilitar a integração automatizada</strong> com serviços, APIs e sistemas externos que dependem de dados confiáveis e consistentes.</li>
-        <li><strong>Consolidar a marca em um formato universal</strong>, garantindo proteção e reconhecimento em múltiplos ambientes digitais.</li>
-    </ul>
+    <!-- Main Content -->
+    <main class="pt-24 pb-16">
+    
 
-    <h2>Estrutura do Repositório</h2>
-    <table>
-        <tr>
-            <th>Arquivo</th>
-            <th>Descrição</th>
-        </tr>
-        <tr>
-            <td><code>theusoft-schema.json</code></td>
-            <td>Definição formal da identidade da Ṫ͏͏HEÜSOFT em JSON-LD.</td>
-        </tr>
-        <tr>
-            <td><code>README.md</code></td>
-            <td>Documentação introdutória, orientações e detalhes técnicos.</td>
-        </tr>
-        <tr>
-            <td><code>LICENSE</code></td>
-            <td>Termos e condições de uso, proteção legal e permissões.</td>
-        </tr>
-    </table>
+        <!-- Content Sections -->
+        <div class="container mx-auto px-4 py-12 max-w-4xl">
+            <!-- Visão Geral -->
+            <section id="visao-geral" class="content-section mb-12 p-6 bg-white rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4 border-b pb-2">Visão Geral</h2>
+                <div class="prose max-w-none">
+                    <p>Este repositório representa o Schema Oficial da organização  Ṫ͏͏HEÜSOFT, a fundação digital da nossa identidade corporativa e tecnológica.</p>
+                    <p>Estruturado em JSON-LD seguindo rigorosamente os padrões internacionais do Schema.org, nosso schema não é mero dado — é a peça chave para garantir que sistemas inteligentes, motores de busca, assistentes virtuais e integrações automatizadas compreendam, reconheçam e valorizem a nossa marca no universo digital.</p>
+                    <p>Trata-se de um elo essencial na construção da nossa reputação e visibilidade, facilitando a interoperabilidade entre plataformas e garantindo que a ͏͏HEÜSOFT seja percebida com precisão e autoridade no ecossistema tecnológico global.</p>
+                </div>
+            </section>
 
-    <h2>Guia de Uso</h2>
-    <p>Para incorporar ou referenciar nosso schema em projetos, websites, APIs ou qualquer sistema que suporte dados estruturados, utilize o link direto ao arquivo JSON-LD:</p>
-    <pre><code>https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json</code></pre>
+            <!-- Objetivos -->
+            <section id="objetivos" class="content-section mb-12 p-6 bg-white rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4 border-b pb-2">Objetivo do Schema</h2>
+                <div class="prose max-w-none">
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Padronizar a representação da identidade corporativa em dados estruturados legíveis por máquinas.</li>
+                        <li>Otimizar a presença da ͏͏HEÜSOFT em mecanismos de busca, melhorando o SEO e a indexação.</li>
+                        <li>Facilitar a integração automatizada com serviços, APIs e sistemas externos que dependem de dados confiáveis e consistentes.</li>
+                        <li>Consolidar a marca em um formato universal, garantindo proteção e reconhecimento em múltiplos ambientes digitais.</li>
+                    </ul>
+                </div>
+            </section>
 
-    <h2>Considerações Técnicas</h2>
-    <ul>
-        <li>Segue o padrão JSON-LD, amplamente adotado para dados vinculados.</li>
-        <li>Compatível com ferramentas de validação como o <a href="https://search.google.com/structured-data/testing-tool" target="_blank">Google Structured Data Testing Tool</a> e <a href="https://validator.schema.org/" target="_blank">Schema Markup Validator</a>.</li>
-        <li>Atualizações futuras manterão retrocompatibilidade e segurança.</li>
-    </ul>
+<!-- Estrutura -->
+<section id="estrutura" class="content-section mb-12 p-6 bg-white rounded-lg shadow-md">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4 border-b pb-2">Estrutura do Repositório</h2>
+    <div class="prose max-w-none">
+        <div class="overflow-x-auto">
+            <table class="min-w-full bg-white border">
+                <thead>
+                    <tr class="bg-gray-100">
+                        <th class="py-2 px-4 border">Arquivo</th>
+                        <th class="py-2 px-4 border">Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="py-2 px-4 border">
+                            <a href="https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json" target="_blank" class="text-blue-600 hover:underline">
+                                <code>theusoft-schema.json</code>
+                            </a>
+                        </td>
+                        <td class="py-2 px-4 border">Definição formal da identidade da ͏͏HEÜSOFT em JSON-LD.</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="py-2 px-4 border">
+                            <a href="https://github.com/THEUSOFT-ORG/theusoft-schema/blob/main/README.md" target="_blank" class="text-blue-600 hover:underline">
+                                <code>README.md</code>
+                            </a>
+                        </td>
+                        <td class="py-2 px-4 border">Documentação introdutória, orientações e detalhes técnicos.</td>
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border">
+                            <a href="https://github.com/THEUSOFT-ORG/theusoft-schema/blob/main/LICENSE.md" target="_blank" class="text-blue-600 hover:underline">
+                                <code>LICENSE</code>
+                            </a>
+                        </td>
+                        <td class="py-2 px-4 border">Termos e condições de uso, proteção legal e permissões.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
 
-    <h2>Contato e Suporte</h2>
-    <ul>
-        <li>Website: <a href="https://theusoft.shop">https://theusoft.shop</a></li>
-        <li>E-mail: <a href="mailto:suporte@theusoft.shop">suporte@theusoft.shop</a></li>
-        <li>GitHub: <a href="https://github.com/THEUSOFT-ORG">https://github.com/THEUSOFT-ORG</a></li>
-    </ul>
 
-    <h2>Direitos Autorais</h2>
-    <p>© 2022–2025 Ṫ͏͏HEÜSOFT, inscrita no CNPJ nº 46.142.036/0001-00 — Todos os direitos reservados.</p>
-    <p>Uso não autorizado pode resultar em ações legais para proteger os direitos de propriedade intelectual da empresa.</p>
-</main>
+            <!-- Guia de Uso -->
+            <section id="guia-uso" class="content-section mb-12 p-6 bg-white rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4 border-b pb-2">Guia de Uso</h2>
+                <div class="prose max-w-none">
+                    <p>Para incorporar ou referenciar nosso schema em projetos, websites, APIs ou qualquer sistema que suporte dados estruturados, utilize o link direto ao arquivo JSON-LD:</p>
+                    <p class="mt-4 p-3 bg-gray-100 rounded">
+                        <a href="https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json" target="_blank" class="text-blue-600 hover:underline break-all">
+                            https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json
+                        </a>
+                    </p>
+                </div>
+            </section>
 
-<footer>
-    Ṫ͏͏HEÜSOFT © 2022–2025 — Todos os direitos reservados.
-</footer>
+            <!-- Considerações Técnicas -->
+            <section id="consideracoes" class="content-section mb-12 p-6 bg-white rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4 border-b pb-2">Considerações Técnicas</h2>
+                <div class="prose max-w-none">
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Segue o padrão JSON-LD, amplamente adotado para dados vinculados.</li>
+                        <li>Compatível com ferramentas de validação como o Google Structured Data Testing Tool e Schema Markup Validator.</li>
+                        <li>Atualizações futuras manterão retrocompatibilidade e segurança.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
 
+<!-- Partners Section -->
+<section class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Parceiros</h2>
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+
+            <div class="partner-logo text-center">
+                <a href="https://fcaminho.org.br/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/Partners/taize.png" alt="Taíze" class="h-16 md:h-20 mx-auto">
+                    <p class="mt-2 text-gray-700 font-medium">Taíze</p>
+                </a>
+            </div>
+
+            <div class="partner-logo text-center">
+                <a href="https://www.alagoinhas.ba.gov.br/index.php/prefeitura-de-alagoinhas-inaugura-o-centro-especializado-para-a-populacao-em-situacao-de-rua/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/Partners/pop.jpg" alt="Centro POP" class="h-16 md:h-20 mx-auto">
+                    <p class="mt-2 text-gray-700 font-medium">Centro POP</p>
+                </a>
+            </div>
+
+            <div class="partner-logo text-center">
+                <a href="https://www.alagoinhas.ba.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/Partners/Brasão_de_Alagoinhas.png" alt="Alagoinhas" class="h-16 md:h-20 mx-auto">
+                    <p class="mt-2 text-gray-700 font-medium">Alagoinhas</p>
+                </a>
+            </div>
+
+            <div class="partner-logo text-center">
+                <a href="https://www.aracas.ba.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/Partners/Brasão_de_Araçás.png" alt="Araçás" class="h-16 md:h-20 mx-auto">
+                    <p class="mt-2 text-gray-700 font-medium">Araçás</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <p class="mb-2">© 2022–2025 ͏͏HEÜSOFT, inscrita no CNPJ nº 46.142.036/0001-00 — Todos os direitos reservados.</p>
+                <p class="text-sm text-gray-400 mb-4">Uso não autorizado pode resultar em ações legais para proteger os direitos de propriedade intelectual da empresa.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white">Termos de Uso</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="text-gray-400 hover:text-white">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="assets/js/script.js" defer></script>
 </body>
 </html>
