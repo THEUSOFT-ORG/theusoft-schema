@@ -1,3 +1,32 @@
+/* Gradiente suave e profissional para header e menu */
+.header-gradient {
+    background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
+    transition: background 0.5s ease-in-out; /* suaviza mudanças caso haja hover/scroll */
+}
+
+/* Mobile menu usando mesmo gradiente */
+.mobile-menu-gradient {
+    background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
+}
+
+/* -------------------- */
+/* Gradiente animado opcional */
+/* -------------------- */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.header-gradient-animated,
+.mobile-menu-gradient-animated {
+    background: linear-gradient(90deg, #FF69B4, #1A237E, #6A0DAD, #C8A2C8);
+    background-size: 300% 300%; /* necessário para o movimento suave */
+    animation: gradientShift 15s ease infinite;
+}
+
+     
+
      /* Custom CSS for animations and effects */
         .social-icon {
             transition: all 0.3s ease;
@@ -32,3 +61,44 @@
         .mobile-menu.open {
             max-height: 500px;
         }
+.footer-seo h2 {
+  white-space: normal;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .footer-seo h2 {
+    white-space: nowrap;
+    font-size: 1.2rem;
+  }
+}
+
+.footer-seo img {
+  transition: transform 0.3s ease;
+}
+
+.footer-seo img:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* Pulso suave na logo */
+.footer-logo-pulse {
+  animation: pulseShadow 3s ease-in-out infinite;
+}
+
+@keyframes pulseShadow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+                0 0 40px rgba(147, 197, 253, 0.3);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 192, 203, 0.7),
+                0 0 60px rgba(30, 58, 138, 0.4);
+    transform: scale(1.05);
+  }
+}
+
+
