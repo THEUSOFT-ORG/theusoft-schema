@@ -1,288 +1,337 @@
+/* ==========================================================================
+   © 2022 - 2025 Ṫ͏͏HEÜSOFT – Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA
+   🌎 Uma homenagem ao mundo, à criatividade e à conexão de todos os seres
+   ========================================================================== */
+
 /* Aplica a fonte Cocomat Pro em toda a página */
 body {
-    font-family: 'Cocomat Pro', "Segoe UI", Tahoma, sans-serif;
+	font-family: 'Cocomat Pro', "Segoe UI", Tahoma, sans-serif;
 }
 
 /* Garante que todos os elementos herdem a fonte */
 * {
-    font-family: inherit;
+	font-family: inherit;
 }
 
 /* Ajustes específicos para manter a hierarquia visual */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700; /* Peso mais forte para títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	/* Peso mais forte para títulos */
 }
 
 .prose {
-    font-family: 'Cocomat Pro', "Segoe UI", Tahoma, sans-serif;
+	font-family: 'Cocomat Pro', "Segoe UI", Tahoma, sans-serif;
 }
 
 /* Ajuste para elementos de código manterem fonte monospace */
-code, pre, .font-mono {
-    font-family: 'Courier New', Courier, monospace;
+code,
+pre,
+.font-mono {
+	font-family: 'Courier New', Courier, monospace;
 }
 
 /* Gradiente suave e profissional para header e menu */
 .header-gradient {
-    background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
-    transition: background 0.5s ease-in-out; /* suaviza mudanças caso haja hover/scroll */
+	background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
+	transition: background 0.5s ease-in-out;
+	/* suaviza mudanças caso haja hover/scroll */
 }
 
 /* Mobile menu usando mesmo gradiente */
 .mobile-menu-gradient {
-    background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
+	background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
 }
 
 /* -------------------- */
 /* Gradiente animado opcional */
 /* -------------------- */
 @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .header-gradient-animated,
 .mobile-menu-gradient-animated {
-    background: linear-gradient(90deg, #FF69B4, #1A237E, #6A0DAD, #C8A2C8);
-    background-size: 300% 300%; /* necessário para o movimento suave */
-    animation: gradientShift 15s ease infinite;
+	background: linear-gradient(90deg, #FF69B4, #1A237E, #6A0DAD, #C8A2C8);
+	background-size: 300% 300%;
+	/* necessário para o movimento suave */
+	animation: gradientShift 15s ease infinite;
 }
 
-     
 
-     /* Custom CSS for animations and effects */
-        .social-icon {
-            transition: all 0.3s ease;
-        }
-        .social-icon:hover {
-            transform: scale(1.1);
-        }
-        .partner-logo {
-            transition: all 0.3s ease;
-            filter: grayscale(100%);
-            opacity: 0.8;
-        }
-        .partner-logo:hover {
-            filter: grayscale(0%);
-            opacity: 1;
-            transform: scale(1.05);
-        }
-        .content-section {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.5s ease, transform 0.5s ease;
-        }
-        .content-section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .mobile-menu {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease;
-        }
-        .mobile-menu.open {
-            max-height: 500px;
-        }
+/* Custom CSS for animations and effects */
+.social-icon {
+	transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+	transform: scale(1.1);
+}
+
+.partner-logo {
+	transition: all 0.3s ease;
+	filter: grayscale(100%);
+	opacity: 0.8;
+}
+
+.partner-logo:hover {
+	filter: grayscale(0%);
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+.content-section {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.content-section.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.mobile-menu {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease;
+}
+
+.mobile-menu.open {
+	max-height: 500px;
+}
+
 .footer-seo h2 {
-  white-space: normal;
-  max-width: 100%;
+	white-space: normal;
+	max-width: 100%;
 }
 
 @media (min-width: 768px) {
-  .footer-seo h2 {
-    white-space: nowrap;
-    font-size: 1.2rem;
-  }
+	.footer-seo h2 {
+		white-space: nowrap;
+		font-size: 1.2rem;
+	}
 }
 
 .footer-seo img {
-  transition: transform 0.3s ease;
+	transition: transform 0.3s ease;
 }
 
 .footer-seo img:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
-
 
 
 /* Pulso suave na logo */
 .footer-logo-pulse {
-  animation: pulseShadow 3s ease-in-out infinite;
+	animation: pulseShadow 3s ease-in-out infinite;
 }
 
 @keyframes pulseShadow {
-  0%, 100% {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
-                0 0 40px rgba(147, 197, 253, 0.3);
-    transform: scale(1);
-  }
-  50% {
-    box-shadow: 0 0 30px rgba(255, 192, 203, 0.7),
-                0 0 60px rgba(30, 58, 138, 0.4);
-    transform: scale(1.05);
-  }
+
+	0%,
+	100% {
+		box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+			0 0 40px rgba(147, 197, 253, 0.3);
+		transform: scale(1);
+	}
+
+	50% {
+		box-shadow: 0 0 30px rgba(255, 192, 203, 0.7),
+			0 0 60px rgba(30, 58, 138, 0.4);
+		transform: scale(1.05);
+	}
 }
 
-
-/* Ajustes para o slogan - evitar quebra de linha em mobile */
-#theusoft-slogan {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 0.875rem; /* tamanho base */
-    line-height: 1.2;
-    margin: 0.25rem 0;
-}
-
-/* Em telas muito pequenas, reduz ainda mais a fonte se necessário */
-@media (max-width: 480px) {
-    #theusoft-slogan {
-        font-size: 0.8rem;
-        letter-spacing: -0.01em; /* compacta levemente as letras */
-    }
-}
 
 /* Em telas extremamente pequenas, ajuste mais agressivo */
 @media (max-width: 360px) {
-    #theusoft-slogan {
-        font-size: 0.75rem;
-        letter-spacing: -0.02em;
-    }
+	#theusoft-slogan {
+		font-size: 0.75rem;
+		letter-spacing: -0.02em;
+	}
 }
 
 /* Para telas maiores, comportamento normal */
 @media (min-width: 768px) {
-    #theusoft-slogan {
-        white-space: normal;
-        font-size: 0.875rem;
-        line-height: 1.4;
-    }
+	#theusoft-slogan {
+		white-space: normal;
+		font-size: 0.875rem;
+		line-height: 1.4;
+	}
 }
 
 /* Setas de navegação */
 .carousel-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background: white;
-    border: 2px solid #e5e7eb;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    z-index: 20;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	background: white;
+	border: 2px solid #e5e7eb;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	z-index: 20;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-arrow:hover {
-    background: #3b82f6;
-    border-color: #3b82f6;
-    color: white;
-    transform: translateY(-50%) scale(1.1);
+	background: #3b82f6;
+	border-color: #3b82f6;
+	color: white;
+	transform: translateY(-50%) scale(1.1);
 }
 
 .carousel-arrow-left {
-    left: -20px;
+	left: -20px;
 }
 
 .carousel-arrow-right {
-    right: -20px;
+	right: -20px;
 }
 
 /* Esconder setas em mobile */
 @media (max-width: 767px) {
-    .carousel-arrow {
-        display: none !important;
-    }
-    
-    #partners-carousel {
-        padding: 0 1rem;
-        gap: 2rem;
-    }
+	.carousel-arrow {
+		display: none !important;
+	}
+
+	#partners-carousel {
+		padding: 0 1rem;
+		gap: 2rem;
+	}
 }
 
 /* Indicadores de scroll */
 .carousel-dot.active {
-    background: #3b82f6;
-    transform: scale(1.2);
+	background: #3b82f6;
+	transform: scale(1.2);
 }
 
 /* Efeitos dos parceiros (mantido) */
 .partner-logo {
-    transition: all 0.3s ease;
-    filter: grayscale(100%);
-    opacity: 0.8;
+	transition: all 0.3s ease;
+	filter: grayscale(100%);
+	opacity: 0.8;
 }
+
 .partner-logo:hover {
-    filter: grayscale(0%);
-    opacity: 1;
-    transform: scale(1.05);
+	filter: grayscale(0%);
+	opacity: 1;
+	transform: scale(1.05);
 }
 
 /* Desktop - mostra todos normal */
 @media (min-width: 768px) {
-    #partners-carousel {
-        flex-wrap: wrap;
-        justify-content: center;
-        overflow-x: visible;
-        gap: 3rem;
-    }
+	#partners-carousel {
+		flex-wrap: wrap;
+		justify-content: center;
+		overflow-x: visible;
+		gap: 3rem;
+	}
 }
 
 
 #theusoft-copy {
-    font-size: 0.95rem; /* Reduz levemente o tamanho */
-    letter-spacing: -0.01em; /* Compacta um pouco as letras */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+	font-size: 0.95rem;
+	/* Reduz levemente o tamanho */
+	letter-spacing: -0.01em;
+	/* Compacta um pouco as letras */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 #theusoft-slogan {
-    font-size: 0.8rem; /* Reduz mais o slogan */
-    letter-spacing: -0.02em; /* Compacta mais ainda */
-    line-height: 1.2;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 0.1rem 0; /* Reduz margem */
+	font-size: 0.8rem;
+	/* Reduz mais o slogan */
+	letter-spacing: -0.02em;
+	/* Compacta mais ainda */
+	line-height: 1.2;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0.1rem 0;
+	/* Reduz margem */
 }
 
 /* Em telas muito pequenas, ajuste mais agressivo */
 @media (max-width: 480px) {
-    #theusoft-copy {
-        font-size: 0.9rem;
-    }
-    #theusoft-slogan {
-        font-size: 0.75rem;
-        letter-spacing: -0.03em;
-    }
+	#theusoft-copy {
+		font-size: 0.9rem;
+	}
+
+	#theusoft-slogan {
+		font-size: 0.75rem;
+		letter-spacing: -0.03em;
+	}
 }
 
 /* Em desktop, pode voltar ao normal */
 @media (min-width: 768px) {
-    #theusoft-copy {
-        font-size: 0.875rem; /* Tamanho original */
-        letter-spacing: normal;
-    }
-    #theusoft-slogan {
-        font-size: 0.875rem;
-        letter-spacing: normal;
-        white-space: normal; /* Permite quebra em desktop */
-        text-overflow: clip;
-        overflow: visible;
-    }
-}
+	#theusoft-copy {
+		font-size: 0.875rem;
+		/* Tamanho original */
+		letter-spacing: normal;
+	}
 
+	#theusoft-slogan {
+		font-size: 0.875rem;
+		letter-spacing: normal;
+		white-space: normal;
+		/* Permite quebra em desktop */
+		text-overflow: clip;
+		overflow: visible;
+	}
+}
 
 
 /* Exceção apenas para elementos que devem manter fontes monospace */
-code, pre, .font-mono, kbd, samp {
-    font-family: 'Courier New', Courier, monospace !important;
+code,
+pre,
+.font-mono,
+kbd,
+samp {
+	font-family: 'Courier New', Courier, monospace !important;
 }
+
+/* Adicione esta regra NO FINAL do CSS */
+#theusoft-slogan {
+	white-space: nowrap !important;
+	overflow: visible !important;
+	text-overflow: unset !important;
+}
+
+@media (min-width: 768px) {
+	#theusoft-slogan {
+		font-size: 0.875rem !important;
+		letter-spacing: normal !important;
+		line-height: 1.4 !important;
+	}
+}
+
+
+/* ========================================================================== 
+   🌟 Que o código seja sempre fonte de luz, aprendizado e inspiração
+   🌱 Cultive boas ideias, compartilhe conhecimento e transforme realidades
+   © 2022 - 2025 Ṫ͏͏HEÜSOFT – Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA
+   ========================================================================== */
