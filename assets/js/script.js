@@ -1,3 +1,9 @@
+/* ==========================================================================
+   © 2022 - 2025 Ṫ͏͏HEÜSOFT – Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA
+   💡 Que cada linha de código seja uma ponte entre pessoas e ideias
+   🌍 Criar, compartilhar e transformar: esse é o verdadeiro poder da tecnologia
+   ========================================================================== */
+
 // Mobile menu toggle
 document.getElementById('mobile-menu-button').addEventListener('click', function() {
     const menu = document.getElementById('mobile-menu');
@@ -120,3 +126,9 @@ function initCarouselNavigation() {
 
 // Inicializa quando o DOM carregar
 document.addEventListener('DOMContentLoaded', initCarouselNavigation);
+
+// ========================================================================== 
+// 🌟 Que suas criações inspirem bondade, curiosidade e inovação
+// 🌱 Cada função, cada variável, uma semente de transformação positiva
+// © 2022 - 2025 Ṫ͏͏HEÜSOFT – Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA
+// ==========================================================================
