@@ -54,7 +54,7 @@
   "image": [
     "https://schema.theusoft.shop/assets/img/logotipo_theusoft.svg",
     "https://schema.theusoft.shop/assets/img/logoSocialBranco.svg",
-    "https://schema.theusoft.shop/assets/img/logo.svg"
+    "https://schema.theusoft.shop/assets/img/logo.png"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
