@@ -4,28 +4,91 @@
   "name": "Ṫ͏͏HEÜSOFT",
   "alternateName": "THEUSOFT",
   "url": "https://theusoft.shop",
-  "logo": "https://theusoft.shop/img/logo.png",
+  "logo": "https://schema.theusoft.shop/assets/img/logotipo_theusoft.svg",
+  "founder": {
+    "@type": "Person",
+    "name": "Mateüs Araüjo",
+    "jobTitle": "Fundador e Mente Mestra",
+    "sameAs": "https://www.linkedin.com/in/theusoft-org"
+  },
   "foundingDate": "2022-04-26",
-  "description": "Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.",
+  "description": "Ṫ͏͏HEÜSOFT é uma entidade viva de tecnologia e inovação, com soluções em software personalizado, IA integrada, automação, infraestrutura digital e visão sustentável.",
+  "slogan": "Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA",
+  "keywords": "tecnologia, inovação, software personalizado, IA, automação, infraestrutura digital, educação, sustentabilidade, Mateüs Araüjo",
   "sameAs": [
-    "https://github.com/theusoft-org",
+    "https://github.com/THEUSOFT-ORG",
+    "https://www.instagram.com/theusoft/",
+    "https://www.youtube.com/@theusoft",
     "https://www.linkedin.com/in/theusoft-org",
-    "https://instagram.com/theusoft",
-    "https://youtube.com/@theusoft",
-    "https://facebook.com/theusoftorg",
-    "https://br.pinterest.com/theusoftorg",
-    "https://g.page/r/CaV1hF2qU65aEBM/review",
-    "https://saude.theusoft.shop/validacao"
+    "https://www.facebook.com/theusoftorg",
+    "https://g.page/r/CaV1hF2qU65aEBM/review"
   ],
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Brasil",
-    "addressCountry": "BR"
+    "addressCountry": "BR",
+    "addressLocality": "Brasil"
   },
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
     "email": "contato@theusoft.shop",
-    "areaServed": "BR"
+    "areaServed": "BR",
+    "availableLanguage": ["pt-BR", "en"]
+  },
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "Ṫ͏͏HEÜSOFT Lab",
+      "description": "Centro de desenvolvimento e inovação de IA e automação."
+    },
+    {
+      "@type": "Organization",
+      "name": "Ṫ͏͏HEÜSOFT Academy",
+      "description": "Espaço educacional focado em tecnologia e transformação digital."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://schema.theusoft.shop/theusoft-schema.json"
+  },
+  "image": [
+    "https://schema.theusoft.shop/assets/img/logotipo_theusoft.svg",
+    "https://schema.theusoft.shop/assets/img/logoSocialBranco.svg",
+    "https://schema.theusoft.shop/assets/img/logo.svg"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Soluções Ṫ͏͏HEÜSOFT",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Desenvolvimento de Software Personalizado"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Automação Inteligente"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Integração de IA"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Validação SÜS",
+          "url": "https://saude.theusoft.shop/validacao"
+        }
+      }
+    ]
   }
 }
