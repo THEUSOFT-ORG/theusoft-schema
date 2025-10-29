@@ -42,11 +42,13 @@ function updateBrandCopyright() {
     }
     
     const ano_etapa = `${ano}.${etapa}`;
-    const brand = `© 2022-${ano_etapa} Ṫ͏͏HEÜSOFT – Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.`;
-
-    // Atualizar apenas o elemento do footer com ID
-    const brandElement = document.getElementById('brand-footer');
-    if (brandElement) {
-        brandElement.textContent = brand;
+    
+    // Atualizar apenas o elemento do copyright (mantendo o slogan separado)
+    const copyElement = document.getElementById('theusoft-copy');
+    if (copyElement) {
+        copyElement.textContent = `Ṫ͏͏͏͏HEÜSOFT™ © 2022–${ano_etapa} All rights reserved`;
     }
+    
+    // O slogan permanece estático no HTML como definido
+    // <p id="theusoft-slogan">Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.</p>
 }

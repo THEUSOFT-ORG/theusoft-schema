@@ -102,3 +102,37 @@
 }
 
 
+/* Ajustes para o slogan - evitar quebra de linha em mobile */
+#theusoft-slogan {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.875rem; /* tamanho base */
+    line-height: 1.2;
+    margin: 0.25rem 0;
+}
+
+/* Em telas muito pequenas, reduz ainda mais a fonte se necessário */
+@media (max-width: 480px) {
+    #theusoft-slogan {
+        font-size: 0.8rem;
+        letter-spacing: -0.01em; /* compacta levemente as letras */
+    }
+}
+
+/* Em telas extremamente pequenas, ajuste mais agressivo */
+@media (max-width: 360px) {
+    #theusoft-slogan {
+        font-size: 0.75rem;
+        letter-spacing: -0.02em;
+    }
+}
+
+/* Para telas maiores, comportamento normal */
+@media (min-width: 768px) {
+    #theusoft-slogan {
+        white-space: normal;
+        font-size: 0.875rem;
+        line-height: 1.4;
+    }
+}
