@@ -1,3 +1,27 @@
+/* Aplica a fonte Cocomat Pro em toda a página */
+body {
+    font-family: 'Cocomat Pro', "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Garante que todos os elementos herdem a fonte */
+* {
+    font-family: inherit;
+}
+
+/* Ajustes específicos para manter a hierarquia visual */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Peso mais forte para títulos */
+}
+
+.prose {
+    font-family: 'Cocomat Pro', "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Ajuste para elementos de código manterem fonte monospace */
+code, pre, .font-mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* Gradiente suave e profissional para header e menu */
 .header-gradient {
     background: linear-gradient(90deg, #FF69B4 0%, #1A237E 40%, #6A0DAD 70%, #C8A2C8 100%);
@@ -135,4 +159,130 @@
         font-size: 0.875rem;
         line-height: 1.4;
     }
+}
+
+/* Setas de navegação */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 20;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-arrow:hover {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-arrow-left {
+    left: -20px;
+}
+
+.carousel-arrow-right {
+    right: -20px;
+}
+
+/* Esconder setas em mobile */
+@media (max-width: 767px) {
+    .carousel-arrow {
+        display: none !important;
+    }
+    
+    #partners-carousel {
+        padding: 0 1rem;
+        gap: 2rem;
+    }
+}
+
+/* Indicadores de scroll */
+.carousel-dot.active {
+    background: #3b82f6;
+    transform: scale(1.2);
+}
+
+/* Efeitos dos parceiros (mantido) */
+.partner-logo {
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+.partner-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Desktop - mostra todos normal */
+@media (min-width: 768px) {
+    #partners-carousel {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: visible;
+        gap: 3rem;
+    }
+}
+
+
+#theusoft-copy {
+    font-size: 0.95rem; /* Reduz levemente o tamanho */
+    letter-spacing: -0.01em; /* Compacta um pouco as letras */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#theusoft-slogan {
+    font-size: 0.8rem; /* Reduz mais o slogan */
+    letter-spacing: -0.02em; /* Compacta mais ainda */
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0.1rem 0; /* Reduz margem */
+}
+
+/* Em telas muito pequenas, ajuste mais agressivo */
+@media (max-width: 480px) {
+    #theusoft-copy {
+        font-size: 0.9rem;
+    }
+    #theusoft-slogan {
+        font-size: 0.75rem;
+        letter-spacing: -0.03em;
+    }
+}
+
+/* Em desktop, pode voltar ao normal */
+@media (min-width: 768px) {
+    #theusoft-copy {
+        font-size: 0.875rem; /* Tamanho original */
+        letter-spacing: normal;
+    }
+    #theusoft-slogan {
+        font-size: 0.875rem;
+        letter-spacing: normal;
+        white-space: normal; /* Permite quebra em desktop */
+        text-overflow: clip;
+        overflow: visible;
+    }
+}
+
+
+
+/* Exceção apenas para elementos que devem manter fontes monospace */
+code, pre, .font-mono, kbd, samp {
+    font-family: 'Courier New', Courier, monospace !important;
 }
