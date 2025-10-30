@@ -46,7 +46,7 @@ Para incorporar ou referenciar nosso schema em projetos, websites, APIs ou qualq
 ## Acesso Direto ao Schema JSON
 
 ```json
-https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json
+https://schema.theusoft.shop/theusoft-schema.json
 ```
 
 ---
