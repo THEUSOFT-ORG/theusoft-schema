@@ -94,7 +94,6 @@ A empresa reserva-se o direito de empregar todas as medidas legais cabíveis par
 
 
 ---
-
-## **Ṫ͏HEÜSOFT™** © 2022–2025.3 All rights reserved
-
-> **Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.** 🚀
+#
+### **Ṫ͏HEÜSOFT™** © 2022–2025.3 All rights reserved
+#### *Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.* 🚀
