@@ -83,6 +83,5 @@ Para solicitar autorizações de uso que excedam o escopo desta licença, esclar
 > ⚖️ A violação destes termos constitui ato de violação de direitos autorais e de propriedade intelectual, podendo acarretar ações judiciais cíveis e criminais, com busca e apreensão, perdas e danos, e demais sanções previstas na **Lei 9.610/98** e no **Código Civil Brasileiro**, sem prejuízo das convenções internacionais aplicáveis.
 
 ---
-#
 ### **Ṫ͏HEÜSOFT™** © 2022–2025.3 All rights reserved
 #### *Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.* 🚀
