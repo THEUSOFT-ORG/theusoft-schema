@@ -1,80 +1,88 @@
-# LICENÇA DE USO — Ṫ͏͏HEÜSOFT Schema
+# 📜 LICENÇA DE USO E DISTRIBUIÇÃO — ESQUEMA OFICIAL Ṫ͏͏HEÜSOFT
 
-**CNPJ Oficial:** `46.142.036/0001-00`  
-**Responsável Legal:** **Mateüs Araüjo**  
-**Identidade da Marca:** **Ṫ͏͏HEÜSOFT**
-
----
-
-## 📜 Descrição Geral
-
-Este documento estabelece os termos legais de uso, reprodução, modificação e distribuição dos arquivos contidos neste repositório, incluindo, mas não se limitando a:
-
-- `theusoft-schema.json`
-- `README.md`
-- Qualquer outro conteúdo presente no repositório.
-
-Ao acessar ou utilizar este repositório, você concorda expressamente com os termos desta licença.
+**🏢 Nome Empresarial (Razão Social):** 46.142.036 Mateüs Araüjo dos Santos<br>
+**🔢 CNPJ Oficial:** `46.142.036/0001-00`<br>
+**📅 Data de Abertura:** 26/04/2022<br>
+**👨‍💼 Representante Legal:** **Mateüs Araüjo**<br>
+**🌐 Identidade Digital Primária:** **Ṫ͏͏HEÜSOFT**
 
 ---
 
-## ✅ Direitos Concedidos
+## 1. 📖 Preâmbulo e Objeto da Licença
 
-A Ṫ͏͏HEÜSOFT autoriza o uso público dos arquivos deste repositório, **exclusivamente para fins informacionais e de integração com sistemas que operem com dados estruturados (ex: crawlers, buscadores, agentes de IA, aplicações web)**, respeitando sempre os seguintes limites:
+Este instrumento legal ("Licença") rege os termos e condições sob os quais os arquivos e dados estruturados contidos no repositório oficial **`theusoft-schema`** são disponibilizados ao público e à máquinas. O objeto desta Licença inclui, de modo não exaustivo:
 
-- É permitida a **consulta e leitura** dos dados JSON-LD para fins de indexação e interpretação sem fins comerciais.
-- É autorizada a **referência direta** ao schema por meio da URL:  
-  [`https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json`](https://raw.githubusercontent.com/THEUSOFT-ORG/theusoft-schema/refs/heads/main/theusoft-schema.json)
+- O arquivo de esquema principal **`theusoft-schema.json`**
+- A documentação associada, como o arquivo **`README.md`**
+- Qualquer outro conteúdo que compõe a representação digital oficial da entidade neste repositório.
 
----
-
-## ❌ Restrições de Uso
-
-Fica **expressamente proibido**:
-
-- Copiar, clonar ou redistribuir este schema com modificação de autoria.
-- Utilizar este material ou suas variações para fins comerciais sem autorização expressa por escrito da Ṫ͏͏HEÜSOFT.
-- Incorporar o conteúdo de forma que prejudique, deturpe ou desacredite a imagem da organização.
-
-Qualquer uso fora do escopo acima deverá ser autorizado formalmente pela Ṫ͏͏HEÜSOFT.
+O acesso, utilização, referenciamento ou integração deste conteúdo constitui aceitação tácita e integral dos termos aqui estabelecidos.
 
 ---
 
-## ⚖️ Direitos Autorais e Propriedade Intelectual
+## 2. ✅ Direitos e Permissões Concedidos (Licenciamento)
 
-Todo o conteúdo aqui presente é de titularidade exclusiva da **Ṫ͏͏HEÜSOFT ORGANIZAÇÃO TECNOLÓGICA**, protegida pelas leis nacionais e internacionais de propriedade intelectual.  
-Qualquer violação poderá ensejar **sanções cíveis e criminais**, conforme a legislação vigente.
+A **Ṫ͏͏HEÜSOFT** concede uma licença limitada, mundial, não exclusiva, isenta de royalties e **não transferível** para utilizar o conteúdo deste repositório, estritamente para as seguintes finalidades autorizadas:
 
----
-
-## 📍 Foro e Jurisdição
-
-Fica eleito o foro da comarca de **Alagoinhas, Estado da Bahia**, para dirimir quaisquer controvérsias decorrentes desta licença ou de seu descumprimento, com **renúncia expressa a qualquer outro**, por mais privilegiado que seja.
+- **🤖 Indexação e Interpretação por Sistemas Automatizados:** Motores de busca (*crawlers*), assistentes de IA, agentes de software e sistemas similares estão autorizados a ler, interpretar e indexar os dados estruturados para representar com precisão a entidade **Ṫ͏͏HEÜSOFT** em seus sistemas.
+- **🔗 Referenciamento Canônico:** É expressamente autorizada a referência direta e a ingestão do schema através do seu URL canônico oficial para fins de integração técnica e validação de dados corporativos.
+- **🌐 Incorporação em Aplicações:** Desenvolvedores e sistemas terceiros podem incorporar o schema via URL oficial para preencher automaticamente informações da **Ṫ͏͏HEÜSOFT** em interfaces, desde que mantida a integridade e autoria dos dados.
 
 ---
 
-## 📆 Vigência
+## 3. ❌ Restrições Expressas e Conduta Proibida
 
-Esta licença entra em vigor na data da sua publicação no repositório oficial da Ṫ͏͏HEÜSOFT no GitHub, e permanece válida enquanto os arquivos forem disponibilizados.
+Fica **expressamente vedado**, sob pena de responsabilização civil e criminal:
+
+- **🚫 Modificação e Deturpação:** Alterar, editar, modificar ou criar trabalhos derivados do schema ou de sua documentação com o intuito de mascarar, suprimir ou deturpar a autoria, origem ou propriedade da **Ṫ͏͏HEÜSOFT**.
+- **🚫 Uso Comercial Não Autorizado:** Utilizar o schema, o nome, a identidade visual ou qualquer elemento contido neste repositório para fins comerciais diretos, incluindo, mas não se limitando a, venda, licenciamento a terceiros ou promoção de produtos e serviços sem autorização prévia e por escrito.
+- **🚫 Ato de Concorrência Desleal:** Utilizar estes dados de forma a criar confusão no mercado, descreditar a imagem da organização ou se passar pela **Ṫ͏͏HEÜSOFT** ou por qualquer de seus representantes.
+- **🚫 Redistribuição como Própria:** Copiar e redistribuir o arquivo de schema (JSON-LD) de forma desvinculada do seu contexto original e sem a clara atribuição à **Ṫ͏͏HEÜSOFT** como fonte primária.
 
 ---
 
-## 📬 Contato Oficial
+## 4. ⚖️ Propriedade Intelectual e Titularidade
 
-Para dúvidas, autorizações ou esclarecimentos, entre em contato via:  
-**Email:** contato@theusoft.shop  
-**Website:** [https://theusoft.shop](https://theusoft.shop)
+Todo o conteúdo deste repositório, incluindo a estrutura de dados, a seleção e organização das informações, a identidade visual da marca e os textos de documentação, são de **titularidade exclusiva da Ṫ͏͏HEÜSOFT** e constituem sua **propriedade intelectual e ativo digital indelével**.
 
+Esta Licença não transfere qualquer direito de propriedade sobre o conteúdo ao usuário. A **Ṫ͏͏HEÜSOFT** se reserva o direito de proteger seus ativos intelectuais por todos os meios legais cabíveis, nacionais e internacionais.
+
+---
+
+## 5. 📍 Jurisdição, Foro e Lei Aplicável
+
+Para dirimir qualquer questão oriunda da interpretação, validade, cumprimento ou descumprimento desta Licença, as partes elegem o **Foro da Comarca de Alagoinhas, Estado da Bahia, Brasil**, com expressa renúncia a qualquer outro, por mais privilegiado que seja.
+
+Esta Licença é regida integralmente pelas **leis da República Federativa do Brasil**.
+
+---
+
+## 6. 📆 Vigência e Alterações
+
+Esta Licença entra em vigor a partir da data de sua publicação no repositório oficial e permanecerá em vigor indefinidamente enquanto o conteúdo estiver disponível.
+
+A **Ṫ͏͏HEÜSOFT** reserva-se o direito de modificar estes termos a qualquer momento, mediante divulgação da nova versão neste mesmo canal. O uso continuado do schema após tais alterações constitui aceitação da nova versão da Licença.
+
+---
+
+## 7. 📬 Contato para Autorizações e Demandas Legais
+
+Para solicitar autorizações de uso que excedam o escopo desta licença, esclarecer dúvidas ou tratar de assuntos legais, os canais oficiais são:
+
+- **📧 E-mail Legal e Administrativo:** [contato@theusoft.shop](mailto:contato@theusoft.shop)
+- **🌐 Website Oficial para Contato:** [https://theusoft.shop](https://theusoft.shop)
+
+---
+
+© 2022 – 2025.3 **Ṫ͏͏HEÜSOFT**.
+
+**⚠️ Todos os Direitos de Propriedade Intelectual e Comerciais Reservados.**
+
+É **expressamente vedada** a cópia, reprodução, modificação, distribuição comercial ou uso público não autorizado, total ou parcial, do conteúdo deste repositório, sem a prévia e expressa autorização por escrito da **Ṫ͏͏HEÜSOFT**.
+
+> ⚖️ A violação destes termos constitui ato de violação de direitos autorais e de propriedade intelectual, podendo acarretar ações judiciais cíveis e criminais, com busca e apreensão, perdas e danos, e demais sanções previstas na **Lei 9.610/98** e no **Código Civil Brasileiro**, sem prejuízo das convenções internacionais aplicáveis.
+
+---
 #
-### **Ṫ͏͏HEÜSOFT ᵈᵉˡᵉᵛᵒᵖᵉʳ**  
-#### *Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA.*
-
-
-© 2022–2025 **Ṫ͏͏HEÜSOFT**  
-**Todos os direitos legais e de propriedade intelectual reservados.**
-
-Este conteúdo é protegido por **leis nacionais e internacionais** de propriedade intelectual.
-
-É **vedada a reprodução, distribuição ou modificação**, total ou parcial, sem **autorização prévia e expressa**.
-
-> ⚖️ A violação destes termos poderá resultar em **sanções civis e criminais**, conforme a legislação vigente.
+### **Ṫ͏HEÜSOFT™** © 2022–2025.3 All rights reserved
+#### *Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.* 🚀
