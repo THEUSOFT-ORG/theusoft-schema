@@ -92,8 +92,7 @@ A estrutura de dados, o conteúdo deste repositório e a própria identidade dig
 
 A empresa reserva-se o direito de empregar todas as medidas legais cabíveis para defender sua propriedade intelectual e a integridade de sua representação digital contra usos não autorizados, falsificação ou apropriação indevida que possam causar confusão no mercado ou danificar a sua reputação.
 
-
 ---
-#
+
 ### **Ṫ͏HEÜSOFT™** © 2022–2025.3 All rights reserved
 #### *Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.* 🚀
