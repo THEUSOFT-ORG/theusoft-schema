@@ -1,4 +1,4 @@
-<h1 align='center'><img alt="Logo Ṫ͏͏HEÜSOFT" src="https://schema.theusoft.shop/assets/img/LogoOficial.svg" height="75"/></h1>
+<h1 align='center'><img alt="Logo Ṫ͏͏HEÜSOFT" src="https://schema.theusoft.shop/assets/img/LogoOficial_bordaBranca.svg" height="75"/></h1>
 
 # Schema de Entidade Digital Oficial 🌐
 
