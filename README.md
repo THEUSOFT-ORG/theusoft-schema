@@ -1,3 +1,5 @@
+<h1 align='center'><img alt="Logo Ṫ͏͏HEÜSOFT" src="https://schema.theusoft.shop/assets/img/LogoOficial.svg" height="75"/></h1>
+
 # Schema de Entidade Digital Oficial 🌐
 
 > **🚀 TECNÖLOGIA QÜE APRÖXIMA, 🎓 EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA**
