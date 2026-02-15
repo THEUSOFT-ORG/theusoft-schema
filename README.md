@@ -1,9 +1,9 @@
-<h1 align='center'><img alt="Logo Ṫ͏͏HEÜSOFT" src="https://schema.theusoft.shop/assets/img/LogoOficial.svg" height="75"/></h1>
+<h1 align='center'><img alt="Logo Ṫ͏͏HEÜSOFT" src="https://schema.theusoft.com.br/assets/img/LogoOficial.svg" height="75"/></h1>
 
 # Schema de Entidade Digital Oficial 🌐
 
 > **🚀 TECNÖLOGIA QÜE APRÖXIMA, 🎓 EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA**
-> *Fundada em 2022 | Identidade Digital Consolidada na Versão 2025.3*
+> *Fundada em 2022 | Identidade Digital Consolidada na Versão 2026.1*
 
 ---
 
@@ -39,7 +39,7 @@ Ao adotar os padrões internacionais do [Schema.org](https://schema.org/), não 
 Para que sistemas e plataformas possam consumir e referenciar corretamente a entidade digital da **Ṫ͏͏HEÜSOFT**, utilize exclusivamente o URL canônico oficial do nosso arquivo de schema:
 
 ```json
-https://schema.theusoft.shop/theusoft-schema.json
+https://schema.theusoft.com.br/theusoft-schema.json
 ```
 
 ### 🛠️ Casos de Uso Recomendados:
@@ -56,7 +56,7 @@ https://schema.theusoft.shop/theusoft-schema.json
 *   **Validação e Testes:** O schema é rigorosamente validado e é compatível com as ferramentas oficiais:
     *   [Google Rich Results Test](https://search.google.com/test/rich-results)
     *   [Schema Markup Validator](https://validator.schema.org/)
-*   **Versionamento e Evolução:** Este schema segue um versionamento semântico (ex: `2025.3`). Atualizações são publicadas para refletir a evolução da empresa, sempre priorizando a **retrocompatibilidade** para não quebrar integrações existentes.
+*   **Versionamento e Evolução:** Este schema segue um versionamento semântico (ex: `2026.1`). Atualizações são publicadas para refletir a evolução da empresa, sempre priorizando a **retrocompatibilidade** para não quebrar integrações existentes.
 
 ---
 
@@ -80,8 +80,8 @@ Entendemos que uma empresa de tecnologia moderna vai além de produtos e serviç
 
 Para garantir a autenticidade e a segurança, as interações oficiais com a **Ṫ͏͏HEÜSOFT** devem ser realizadas exclusivamente através dos seguintes canos validados e representados no nosso schema:
 
-*   🌐 **Portal Oficial:** [https://theusoft.shop](https://theusoft.shop)
-*   📧 **E-mail Institucional para Assuntos Gerais:** [suporte@theusoft.shop](mailto:suporte@theusoft.shop)
+*   🌐 **Portal Oficial:** [https://theusoft.com.br](https://theusoft.com.br)
+*   📧 **E-mail Institucional para Assuntos Gerais:** [suporte@theusoft.com.br](mailto:suporte@theusoft.com.br)
 *   💻 **Repositório Oficial de Projetos e Schemas:** [https://github.com/THEUSOFT-ORG](https://github.com/THEUSOFT-ORG)
 
 ---
@@ -96,5 +96,5 @@ A empresa reserva-se o direito de empregar todas as medidas legais cabíveis par
 
 ---
 
-### **Ṫ͏HEÜSOFT™** © 2022–2025.3 All rights reserved
+### **Ṫ͏HEÜSOFT™** © 2022–2026.1 All rights reserved
 #### *Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.* 🚀
