@@ -81,6 +81,8 @@ Entendemos que uma empresa de tecnologia moderna vai além de produtos e serviç
 Para garantir a autenticidade e a segurança, as interações oficiais com a **Ṫ͏͏HEÜSOFT** devem ser realizadas exclusivamente através dos seguintes canos validados e representados no nosso schema:
 
 *   🌐 **Portal Oficial:** [https://theusoft.com.br](https://theusoft.com.br)
+*   🏗️ **Schema Oficial:** [https://schema.theusoft.com.br](https://schema.theusoft.com.br)
+*   ❤️ **Social:** [https://social.theusoft.com.br](https://social.theusoft.com.br)
 *   📧 **E-mail Institucional para Assuntos Gerais:** [suporte@theusoft.com.br](mailto:suporte@theusoft.com.br)
 *   💻 **Repositório Oficial de Projetos e Schemas:** [https://github.com/THEUSOFT-ORG](https://github.com/THEUSOFT-ORG)
 
