@@ -84,6 +84,5 @@ Para solicitar autorizações de uso que excedam o escopo desta licença, esclar
 
 ---
 
-> ╔═══════════════════════════════════════════════════════════════════════════════╗
-> ║       © 2022 ∞ 2026.1 – Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA      ║
-> ╚═══════════════════════════════════════════════════════════════════════════════╝ 
+### **Ṫ͏HEÜSOFT™** © 2022 ∞ 2026.1 All rights reserved
+#### *Ṫ͏͏ECNOLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE TRANSFÖRMA.* 🚀
