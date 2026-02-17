@@ -3,8 +3,8 @@
   "@type": "Organization",
   "name": "Ṫ͏͏HEÜSOFT",
   "alternateName": "THEUSOFT",
-  "url": "https://theusoft.shop",
-  "logo": "https://schema.theusoft.shop/assets/img/logotipo_theusoft.svg",
+  "url": "https://theusoft.com.br",
+  "logo": "https://schema.theusoft.com.br/assets/img/logotipo_theusoft.svg",
   "founder": {
     "@type": "Person",
     "name": "Mateüs Araüjo",
@@ -31,7 +31,7 @@
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
-    "email": "contato@theusoft.shop",
+    "email": "contato@theusoft.com.br",
     "areaServed": "BR",
     "availableLanguage": ["pt-BR", "en"]
   },
@@ -49,12 +49,12 @@
   ],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://schema.theusoft.shop/theusoft-schema.json"
+    "@id": "https://schema.theusoft.com.br/theusoft-schema.json"
   },
   "image": [
-    "https://schema.theusoft.shop/assets/img/logotipo_theusoft.svg",
-    "https://schema.theusoft.shop/assets/img/logoSocialBranco.svg",
-    "https://schema.theusoft.shop/assets/img/logo.svg"
+    "https://schema.theusoft.com.br/assets/img/logotipo_theusoft.svg",
+    "https://schema.theusoft.com.br/assets/img/logoSocialBranco.svg",
+    "https://schema.theusoft.com.br/assets/img/logo.svg"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -86,7 +86,7 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Validação SÜS",
-          "url": "https://saude.theusoft.shop/validacao"
+          "url": "https://social.theusoft.com.br/validacao"
         }
       }
     ]
