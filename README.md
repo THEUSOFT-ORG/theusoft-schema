@@ -88,7 +88,7 @@ Para garantir a autenticidade e a segurança, as interações oficiais com a **�
 
 ## ©️ Declaração de Direitos de Propriedade Intelectual
 
-© 2022–2025 **Ṫ͏͏HEÜSOFT**, inscrita no CNPJ sob o nº **46.142.036/0001-00**. Todos os direitos reservados.
+© 2022 ∞ 2026 **Ṫ͏͏HEÜSOFT**, inscrita no CNPJ sob o nº **46.142.036/0001-00**. Todos os direitos reservados.
 
 A estrutura de dados, o conteúdo deste repositório e a própria identidade digital da marca **Ṫ͏͏HEÜSOFT** constituem valiosa propriedade intelectual e industrial. Qualquer reprodução, distribuição, modificação, ou uso comercial não autorizado deste schema ou de sua documentação associada é expressamente proibido.
 
