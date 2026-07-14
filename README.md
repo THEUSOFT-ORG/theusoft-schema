@@ -16,7 +16,7 @@
 # Schema de Entidade Digital Oficial 🌐
 
 > **🚀 TECNÖLOGIA QÜE APRÖXIMA, 🎓 EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA**
-> *Fundada em 2022 | Identidade Digital Consolidada na Versão 2026.1*
+> *Fundada em 2022 | Identidade Digital Consolidada na Versão 2026.2*
 
 ---
 
@@ -69,7 +69,7 @@ https://schema.theusoft.com.br/theusoft-schema.json
 *   **Validação e Testes:** O schema é rigorosamente validado e é compatível com as ferramentas oficiais:
     *   [Google Rich Results Test](https://search.google.com/test/rich-results)
     *   [Schema Markup Validator](https://validator.schema.org/)
-*   **Versionamento e Evolução:** Este schema segue um versionamento semântico (ex: `2026.1`). Atualizações são publicadas para refletir a evolução da empresa, sempre priorizando a **retrocompatibilidade** para não quebrar integrações existentes.
+*   **Versionamento e Evolução:** Este schema segue um versionamento semântico (ex: `2026.2`). Atualizações são publicadas para refletir a evolução da empresa, sempre priorizando a **retrocompatibilidade** para não quebrar integrações existentes.
 
 ---
 
