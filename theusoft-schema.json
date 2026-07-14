@@ -1,20 +1,59 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://theusoft.com.br/#organization",
+
   "name": "Ṫ͏͏HEÜSOFT",
-  "alternateName": "THEUSOFT",
+  "alternateName": [
+    "THEUSOFT",
+    "Ṫ͏͏HEÜSOFT Tecnologia"
+  ],
+
   "url": "https://theusoft.com.br",
-  "logo": "https://schema.theusoft.com.br/assets/img/logotipo_theusoft.svg",
+
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://schema.theusoft.com.br/assets/img/logotipo_theusoft.svg"
+  },
+
+  "image": [
+    "https://schema.theusoft.com.br/assets/img/logotipo_theusoft.svg",
+    "https://schema.theusoft.com.br/assets/img/logoSocialBranco.svg",
+    "https://schema.theusoft.com.br/assets/img/logo.svg"
+  ],
+
   "founder": {
     "@type": "Person",
     "name": "Mateüs Araüjo",
     "jobTitle": "Fundador e Mente Mestra",
-    "sameAs": "https://www.linkedin.com/in/theusoft-org"
+    "sameAs": [
+      "https://www.linkedin.com/in/theusoft-org"
+    ]
   },
+
   "foundingDate": "2022-04-26",
-  "description": "Ṫ͏͏HEÜSOFT é uma entidade viva de tecnologia e inovação, com soluções em software personalizado, IA integrada, automação, infraestrutura digital e visão sustentável.",
+
+  "description": "Ṫ͏͏HEÜSOFT é uma empresa brasileira de tecnologia dedicada ao desenvolvimento de software, automação, inteligência artificial, autenticação digital, segurança da informação e soluções inovadoras para transformação digital.",
+
   "slogan": "Ṫ͏͏ECNÖLOGIA QÜE APRÖXIMA, EDÜCAÇÃO QÜE Ṫ͏͏RANSFÖRMA",
-  "keywords": "tecnologia, inovação, software personalizado, IA, automação, infraestrutura digital, educação, sustentabilidade, Mateüs Araüjo",
+
+  "keywords": [
+    "tecnologia",
+    "software",
+    "desenvolvimento de software",
+    "segurança da informação",
+    "autenticação digital",
+    "integridade de documentos",
+    "Auto Hash",
+    "criptografia",
+    "hash",
+    "SHA-256",
+    "automação",
+    "inteligência artificial",
+    "Mateüs Araüjo",
+    "Ṫ͏͏HEÜSOFT"
+  ],
+
   "sameAs": [
     "https://github.com/THEUSOFT-ORG",
     "https://www.instagram.com/theusoft/",
@@ -23,42 +62,46 @@
     "https://www.facebook.com/theusoftorg",
     "https://g.page/r/CaV1hF2qU65aEBM/review"
   ],
+
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "BR",
     "addressLocality": "Brasil"
   },
+
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
     "email": "contato@theusoft.com.br",
     "areaServed": "BR",
-    "availableLanguage": ["pt-BR", "en"]
+    "availableLanguage": [
+      "pt-BR",
+      "en"
+    ]
   },
+
   "department": [
     {
       "@type": "Organization",
       "name": "Ṫ͏͏HEÜSOFT Lab",
-      "description": "Centro de desenvolvimento e inovação de IA e automação."
+      "description": "Pesquisa, desenvolvimento e inovação em software, IA e segurança da informação."
     },
     {
       "@type": "Organization",
       "name": "Ṫ͏͏HEÜSOFT Academy",
-      "description": "Espaço educacional focado em tecnologia e transformação digital."
+      "description": "Iniciativas voltadas à educação, tecnologia e transformação digital."
     }
   ],
+
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://schema.theusoft.com.br/theusoft-schema.json"
   },
-  "image": [
-    "https://schema.theusoft.com.br/assets/img/logotipo_theusoft.svg",
-    "https://schema.theusoft.com.br/assets/img/logoSocialBranco.svg",
-    "https://schema.theusoft.com.br/assets/img/logo.svg"
-  ],
+
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Soluções Ṫ͏͏HEÜSOFT",
+
     "itemListElement": [
       {
         "@type": "Offer",
@@ -78,15 +121,18 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Integração de IA"
+          "name": "Integração de Inteligência Artificial"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
-          "@type": "Service",
-          "name": "Validação SÜS",
-          "url": "https://social.theusoft.com.br/validacao"
+          "@type": "SoftwareApplication",
+          "name": "Auto Hash",
+          "applicationCategory": "SecurityApplication",
+          "operatingSystem": "Web",
+          "url": "https://hash.theusoft.com.br",
+          "description": "Plataforma de autenticação, validação de integridade e verificação de documentos digitais desenvolvida pela Ṫ͏͏HEÜSOFT."
         }
       }
     ]
